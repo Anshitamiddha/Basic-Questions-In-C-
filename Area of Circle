@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int r;
+    float cir;
+    cout<<"Enter radius of circle\n"<<endl;
+    cin>>r;
+    cir=3.14*r*r;
+    cout<<"area of circle is %f"<<cir<<endl;
+    return 0;
+}
