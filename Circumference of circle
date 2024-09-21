@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int r;
+float crcm;
+cout<<"Enter radius of circle"<<endl;
+cin>>r;
+crcm=2*3.14*r;
+cout<<"Circumference of circle is = %f"<<crcm<<endl;
+return 0;
+}
