@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float si,r,t,amnt,p;
+    cout<<"Enter principle amount\n"<<endl;
+    cin>>amnt;
+    cout<<"Enter rate  of interset\n"<<endl;
+    cin>>r;
+    cout<<"Enter time\n"<<endl;
+    cin>>t;
+    si=(p*r*t)/100;
+    cout<<"Simple interest is %f"<<si<<endl;
+    return 0;
+}
