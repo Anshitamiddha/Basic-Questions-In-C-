@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+   int r=10;
+   float cir;
+   cir= 3.14*r*r;
+   cout<<"Area of circle is %f"<<cir<<endl;
+
+   return 0;
+}
